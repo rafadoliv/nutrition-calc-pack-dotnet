@@ -5,6 +5,7 @@
     <RootNamespace>health_calc_pack_dotnet</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>$(AssemblyName)-Rafael-de-Oliveira</PackageId>
   </PropertyGroup>
 
 </Project>
