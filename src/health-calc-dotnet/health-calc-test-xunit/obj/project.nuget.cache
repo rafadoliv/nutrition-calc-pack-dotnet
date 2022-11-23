@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4XH9W6lTJzLGW6Au22IdcnwBwVpmpVBtdihCVyC/WOFo8cKFoF7uUlWxurf+JRb8Iyq8s/1NlqZHnxAY2w8Opw==",
+  "dgSpecHash": "O+X8qtiS1T5bTYKaMfNFrKOio8zjXrNAR2ndZruODq4q4rXg9U1EVzqFDmH8TUUWurtIU93WlVNojAXb57M+nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\Faculdade e Projetos\\nutrition-calc-pack-dotnet\\src\\health-calc-dotnet\\health-calc-test-xunit\\health-calc-test-xunit.csproj",
   "expectedPackageFiles": [
@@ -95,8 +95,7 @@
     "C:\\Users\\rafae\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\rafae\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "C:\\Users\\rafae\\.nuget\\packages\\health-calc-pack-dotnet-rafael-de-oliveira\\1.0.0\\health-calc-pack-dotnet-rafael-de-oliveira.1.0.0.nupkg.sha512"
+    "C:\\Users\\rafae\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>$(AssemblyName)-Rafael-de-Oliveira</PackageId>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>

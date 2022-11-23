@@ -1809,7 +1809,7 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+      "health-calc-pack-dotnet-Rafael-de-Oliveira/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -6114,7 +6114,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+    "health-calc-pack-dotnet-Rafael-de-Oliveira/1.1.0": {
       "type": "project",
       "path": "../health-calc-pack-dotnet/health-calc-pack-dotnet.csproj",
       "msbuildProject": "../health-calc-pack-dotnet/health-calc-pack-dotnet.csproj"
@@ -6124,7 +6124,7 @@
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
-      "health-calc-pack-dotnet-Rafael-de-Oliveira >= 1.0.0",
+      "health-calc-pack-dotnet-Rafael-de-Oliveira >= 1.1.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
