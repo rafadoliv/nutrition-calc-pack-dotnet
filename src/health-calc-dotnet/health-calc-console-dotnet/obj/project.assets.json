@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/health-calc-pack-dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/health-calc-pack-dotnet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+      "sha512": "4NytNKezGWs9JKb2xqf5cM+kHQQJpsmSJXqDQ7G53XrPCjAfd8XBwTKhGS/wQbPS6d6KsEvA90aqt0QIX/sfsw==",
+      "type": "package",
+      "path": "health-calc-pack-dotnet-rafael-de-oliveira/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "health-calc-pack-dotnet-rafael-de-oliveira.1.0.0.nupkg.sha512",
+        "health-calc-pack-dotnet-rafael-de-oliveira.nuspec",
+        "lib/net6.0/health-calc-pack-dotnet.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "health-calc-pack-dotnet-Rafael-de-Oliveira >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rafae\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\Faculdade e Projetos\\nutrition-calc-pack-dotnet\\src\\health-calc-dotnet\\health-calc-console-dotnet\\health-calc-console-dotnet.csproj",
+      "projectName": "health-calc-console-dotnet",
+      "projectPath": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\Faculdade e Projetos\\nutrition-calc-pack-dotnet\\src\\health-calc-dotnet\\health-calc-console-dotnet\\health-calc-console-dotnet.csproj",
+      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\Faculdade e Projetos\\nutrition-calc-pack-dotnet\\src\\health-calc-dotnet\\health-calc-console-dotnet\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "health-calc-pack-dotnet-Rafael-de-Oliveira": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,81 +1,45 @@
 ﻿using health_calc_pack_dotnet.Interfaces;
-using System.Security.Cryptography;
 
 namespace health_calc_pack_dotnet
 {
     public class IMC : IIMC
     {
-        public double Calc(double height, double weight)
+        public double Calc(double Height, double Weight)
         {
-            if (!IsValid(height, weight))
-            {
+            if (!IsValidData(Height, Weight))
                 throw new Exception("Invalid Parameters!");
-            }
 
-            var result = Math.Round(weight / (Math.Pow(height, 2)), 2);
+            var Return = Math.Round(Weight / (Math.Pow(Height, 2)), 2);
+            return Return;
 
-            return result;
         }
 
         public string GetIMCCategory(double IMC)
         {
-            var result = string.Empty;
+            var Result = string.Empty;
 
-            if (IMC >= 0 && IMC < 18.5)
-            {
-                result = "Underweight";
-            }
+            if (IMC < 18.5)
+                Result = "Abaixo do Peso";
             else if (IMC >= 18.5 && IMC < 25)
-            {
-                result = "Normal weight";
-            }
+                Result = "Peso Normal";
             else if (IMC >= 25 && IMC < 30)
-            {
-                result = "Overweight";
-            }
+                Result = "Pre-Obesidade";
             else if (IMC >= 30 && IMC < 35)
-            {
-                result = "Obesity grade I";
-            }
+                Result = "Obesidade Grau 1";
             else if (IMC >= 35 && IMC < 40)
-            {
-                result = "Obesity grade II";
-            }
+                Result = "Obesidade Grau 2";
             else if (IMC >= 40)
-            {
-                result = "Obesity grade III";
-            }
-            else
-            {
-                result = "Invalid IMC";
-            }
+                Result = "Obesidade Grau 3";
 
-            return result;
+            return Result;
         }
 
-        public bool IsValid(double peso, double altura)
+        public bool IsValidData(double Height, double Weight)
         {
-            if (altura <= 0 || peso <= 0)
-            {
+            if (Height <= 0 || Weight <= 0)
                 return false;
-            }
 
             return true;
-        }
-
-        double IIMC.CalcImc(double Height, double Weight)
-        {
-            throw new NotImplementedException();
-        }
-
-        string IIMC.GetIMCCategory(double IMC)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool IIMC.IsValid(double Height, double Weight)
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+7UOvs+14DTGM99VS5wIAq1VIPrg17I8Z91lw32k9gGQ5ZimIFvrGbDUTtTB1Zi5OfE7r+rf4rEepd5JnviH4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\Faculdade e Projetos\\nutrition-calc-pack-dotnet\\src\\health-calc-dotnet\\health-calc-console-dotnet\\health-calc-console-dotnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\health-calc-pack-dotnet-rafael-de-oliveira\\1.0.0\\health-calc-pack-dotnet-rafael-de-oliveira.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

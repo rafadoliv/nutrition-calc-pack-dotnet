@@ -1,6 +1,4 @@
 using health_calc_pack_dotnet;
-using health_calc_pack_dotnet.Interfaces;
-
 
 namespace Health_calc_test_xunit
 {
@@ -11,10 +9,9 @@ namespace Health_calc_test_xunit
         {
             //Arrange
             var Imc = new IMC();
-            var Height = 1.70;
-            var Weight = 90;
-            var Expected = 28.10;
-
+            var Height = 1.68;
+            var Weight = 85;
+            var Expected = 30.12;
 
             //Act
             var Result = Imc.Calc(Height, Weight);
@@ -28,10 +25,10 @@ namespace Health_calc_test_xunit
         {
             //Arrange
             var Imc = new IMC();
-            var Height = 1.70;
-            var Weight = 90;
-            var ExpectedMin = 28;
-            var ExpectedMax = 28.15;
+            var Height = 1.68;
+            var Weight = 85;
+            var ExpectedMin = 30.10;
+            var ExpectedMax = 30.14;
 
             //Act
             var Result = Imc.Calc(Height, Weight);
@@ -39,23 +36,6 @@ namespace Health_calc_test_xunit
             //Assert
             Assert.InRange(Result, ExpectedMin, ExpectedMax);
         }
-
-        //[Fact]
-        // public void When_RequestIMCCalcWithInValidData_ThenReturnNaN()
-        //{
-        //Arrange
-        //var Imc = new IMC();
-        // var Height = 0.0;
-        // var Weight = 0.0;
-        // var Expected = double.NaN;
-
-
-        //Act
-        //var Result = Imc.Calc(Height, Weight);
-
-        //Assert
-        //Assert.Equal(Expected, Result);
-        // }
 
         [Fact]
         public void When_RequestIMCCalcWithInValidAllData_ThenThrowException()
@@ -69,25 +49,6 @@ namespace Health_calc_test_xunit
             Assert.Throws<Exception>(() => Imc.Calc(Height, Weight));
         }
 
-
-        // [Fact]
-        // public void When_RequestIMCCalcWithInValidData_ThenReturnInfinity()
-        // {
-        //Arrange
-        //var Imc = new IMC();
-        //var Height = 0.0;
-        //var Weight = 85.0;
-        //var Expected = double.PositiveInfinity;
-
-
-        //Act
-        //var Result = Imc.Calc(Height, Weight);
-
-        //Assert
-        //Assert.Equal(Expected, Result);
-        // }
-
-
         [Fact]
         public void When_RequestIMCCalcWithInValidHeightData_ThenThrowException()
         {
@@ -95,7 +56,6 @@ namespace Health_calc_test_xunit
             var Imc = new IMC();
             var Height = 0.0;
             var Weight = 85.0;
-
 
             //Act & Assert
             Assert.Throws<Exception>(() => Imc.Calc(Height, Weight));
@@ -125,8 +85,6 @@ namespace Health_calc_test_xunit
             Assert.Equal(ExpectedResult, Result);
         }
 
-
-
         [Theory]
         [InlineData(0, 1.68)]
         [InlineData(85, 0)]
@@ -138,14 +96,11 @@ namespace Health_calc_test_xunit
             var _Height = Height;
             var _Weight = Weight;
 
-
             //Act
-            var Result = Imc.IsValid(_Height, _Weight);
+            var Result = Imc.IsValidData(_Height, _Weight);
 
             //Assert
             Assert.False(Result);
         }
-
-
     }
 }

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "health-calc-console-dotnet/1.0.0": {
+        "dependencies": {
+          "health-calc-pack-dotnet-Rafael-de-Oliveira": "1.0.0"
+        },
+        "runtime": {
+          "health-calc-console-dotnet.dll": {}
+        }
+      },
+      "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+        "runtime": {
+          "lib/net6.0/health-calc-pack-dotnet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "health-calc-console-dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "health-calc-pack-dotnet-Rafael-de-Oliveira/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4NytNKezGWs9JKb2xqf5cM+kHQQJpsmSJXqDQ7G53XrPCjAfd8XBwTKhGS/wQbPS6d6KsEvA90aqt0QIX/sfsw==",
+      "path": "health-calc-pack-dotnet-rafael-de-oliveira/1.0.0",
+      "hashPath": "health-calc-pack-dotnet-rafael-de-oliveira.1.0.0.nupkg.sha512"
+    }
+  }
+}

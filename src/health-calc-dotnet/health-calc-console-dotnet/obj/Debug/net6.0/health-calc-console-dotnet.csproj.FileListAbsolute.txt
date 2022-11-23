@@ -1,0 +1,17 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-console-dotnet.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-console-dotnet.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-console-dotnet.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-console-dotnet.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-console-dotnet.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\bin\Debug\net6.0\health-calc-pack-dotnet.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.csproj.AssemblyReference.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.csproj.CopyComplete
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\refint\health-calc-console-dotnet.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\health-calc-console-dotnet.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Faculdade e Projetos\nutrition-calc-pack-dotnet\src\health-calc-dotnet\health-calc-console-dotnet\obj\Debug\net6.0\ref\health-calc-console-dotnet.dll
