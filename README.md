@@ -66,5 +66,4 @@ Uma biblioteca que permite cálculo de IMC e Macronutrientes, baseados nos dados
 - Distribuição
 
   - [NuGet](https://www.nuget.org/)
-  
-C  
+
