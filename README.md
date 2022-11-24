@@ -1,5 +1,6 @@
 # health-calc-pack-dotnet
 ## Curso de Pós-Graduação em Engenharia de Software da PUC-MG
+Aluno: Rafael de Oliveira
 
 ### Disciplina Projeto Integrado em Engenharia de Software
 
@@ -24,12 +25,10 @@ Uma biblioteca que permite cálculo de IMC e Macronutrientes, baseados nos dados
   - Parametros: IMC(Double)
   - Exemplo: return string RetornoIMC = ObjectIMC.GetIMCClass(IMC);
 
-###**Version: 1.0.1:**
-- *Correção de bug no calculo de IMC, o qual estava estourando o tamanho da variavel, retornando erro nao  tratado ao cliente*;
-
-###**Version: 1.1.1:** 
- 
- *Instanciar um novo objeto do tipo IMC para em seguida utilizar os methodos disponisveis na versão:* 
+###**Version: 1.1.0:**
+- Geração do Nuget Final
+-Comando:
+ dotnet add package health-calc-pack-dotnet-Rafael-de-Oliveira --version 1.1.0
 
 **Methodos add:**
 - Calc (Responsavél por retornar os valores de micronutrientes com base no tipo de operação)
@@ -67,3 +66,5 @@ Uma biblioteca que permite cálculo de IMC e Macronutrientes, baseados nos dados
 - Distribuição
 
   - [NuGet](https://www.nuget.org/)
+  
+C  
